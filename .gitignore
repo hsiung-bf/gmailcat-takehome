@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Project data (do not commit inbox/outputs/cache)
+data/
+!data/.gitkeep
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/ 

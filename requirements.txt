@@ -1,0 +1,9 @@
+click
+openai>=1.0.0
+tenacity
+pyyaml
+faiss-cpu
+sentence-transformers
+python-dotenv
+beautifulsoup4
+typing_extensions>=4.12.0 

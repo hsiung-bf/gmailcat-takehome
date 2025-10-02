@@ -1,0 +1,22 @@
+name: gmailcat
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - faiss-cpu>=1.7.4
+  - mkl
+  - mkl_fft
+  - mkl_random
+  - pip
+  - pip:
+    - click
+    - openai>=1.0.0
+    - tenacity
+    - pyyaml
+    - sentence-transformers
+    - python-dotenv
+    - beautifulsoup4
+    - typing_extensions>=4.12.0
+
